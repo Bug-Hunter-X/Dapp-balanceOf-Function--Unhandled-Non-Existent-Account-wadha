@@ -1,0 +1,1 @@
+This repository contains a Solidity smart contract with a bug in its `balanceOf` function and a corrected version. The bug involves a failure to handle cases where the requested account does not exist, leading to runtime errors. The solution implements a check to gracefully handle such cases and return 0 in the event of a missing account.
